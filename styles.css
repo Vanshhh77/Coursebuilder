@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .course-builder {
+    background-image: url('https://img.pikbest.com/backgrounds/20190701/summer-training-course-enrollment-hd-background_1896928.jpg!bwr800');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+    color: #333;
+  }
+  
+  .course-builder h2 {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .course-builder button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .course-builder button:hover {
+    background-color: #45a049;
+  }
+  
+  .module, .resource {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .module {
+    position: relative;
+  }
+  
+  .module input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .module button {
+    margin-right: 10px;
+  }
+  
+  .resource {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .resource input[type="text"] {
+    font-size: 14px;
+    padding: 5px;
+    width: 70%;
+  }
+  
+  .resource button {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .resource button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .dragging {
+    opacity: 0.5;
+    border: 2px dashed #aaa;
+  }
+  

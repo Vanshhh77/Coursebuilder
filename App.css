@@ -1,0 +1,18 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+main {
+  background-color: black;
+  color: blueviolet;
+  font-size: 2.5em; /* Adjust the font size as needed */
+  padding: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  color: blueviolet;
+  font-size: 1em;
+}
+

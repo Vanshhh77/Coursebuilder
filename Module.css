@@ -1,0 +1,17 @@
+/* Module.css */
+.module {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .resources-container {
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
